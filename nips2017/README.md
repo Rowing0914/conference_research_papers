@@ -1,11 +1,12 @@
 ## Format of summary
 
 1.  keyword
-2.  the question studied
-3.  why it is worth studying that question
-4.  the methods used
-5.  experiments
-6.  the basic results
+2.  Prerequisites
+3.  the question studied
+4.  why it is worth studying that question
+5.  the methods used
+6.  experiments
+7.  the basic results
 
 
 
@@ -34,3 +35,11 @@
      datasets, i.e., the Extended Yale B and ORL face image datasets, and the COIL20/100 object image
      datasets.
   7. the basic results: their experiments show that the proposed method significantly outperforms the state-of-the-art unsupervised subspace clustering methods.
+- [Attentional Pooling for Action Recognition](https://papers.nips.cc/paper/6609-attentional-pooling-for-action-recognition) [Rohit Girdhar](https://papers.nips.cc/author/rohit-girdhar-9363), [Deva Ramanan](https://papers.nips.cc/author/deva-ramanan-2563)
+  1. keyword
+  2. Prerequisites
+  3. the question studied
+  4. why it is worth studying that question
+  5. the methods used
+  6. experiments
+  7. the basic results
