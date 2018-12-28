@@ -36,6 +36,22 @@
      datasets.
   7. the basic results: their experiments show that the proposed method significantly outperforms the state-of-the-art unsupervised subspace clustering methods.
 - [Attentional Pooling for Action Recognition](https://papers.nips.cc/paper/6609-attentional-pooling-for-action-recognition) [Rohit Girdhar](https://papers.nips.cc/author/rohit-girdhar-9363), [Deva Ramanan](https://papers.nips.cc/author/deva-ramanan-2563)
+  1. keyword: attention mechanism, action recognition, low-rank approximations, bilinear pooling methods, fine-grained representations
+  2. Prerequisites: Attention mechanisms(Attention Mechanisms in Neural Networks are (very) loosely based on the visual attention mechanism found in humans. Human visual attention is well-studied and while there exist different models, all of them essentially come down to being able to focus on a certain region of an image with “high resolution” while perceiving the surrounding image in “low resolution”, and then adjusting the focal point over time from [WildML](http://www.wildml.com/2016/01/attention-and-memory-in-deep-learning-and-nlp/).)
+  3. the question studied: how to incorporate attention mechanisms in action recognition and human object interaction tasks
+  4. why it is worth studying that question
+  5. the methods used: integration of bottom-up saliency and top-down attention
+  6. experiments: experiment with three recent, large scale action recognition datasets, across still images and videos, namely MPII, HICO and HMDB51
+  7. the basic results: model produces competitive or state-of-the-art results on widely benchmarked datasets, by learning where to look when pooling features across an image. About 12.5% relative improvement.
+- [On the Consistency of Quick Shift](https://papers.nips.cc/paper/6610-on-the-consistency-of-quick-shift) [Heinrich Jiang](https://papers.nips.cc/author/heinrich-jiang-9364)
+  1. keyword: Quick Shift, consistency
+  2. Prerequisites: [Quick Shift](http://vision.cs.ucla.edu/papers/vedaldiS08quick.pdf) It is simple and proceeds as follows: it moves each sample to its closest sample with a higher empirical density if one exists in a τ radius ball, where the empirical density is taken to be the Kernel Density Estimator (KDE). The output of the procedure can thus be seen as a graph whose vertices are the sample points and a directed edge from each sample to its next point if one exists.
+  3. the question studied: consistency guarantees for Quick Shift under mild assumptions
+  4. why it is worth studying that question
+  5. the methods used: they showed that Quick Shift recovers the modes of a density from a finite sample with minimax optimal guarantees.
+  6. experiments
+  7. the basic results: they demonstrated a procedure for modal regression using Quick Shift which attains strong statistical guarantees.
+- [Breaking the Nonsmooth Barrier: A Scalable Parallel Method for Composite Optimization](https://papers.nips.cc/paper/6611-breaking-the-nonsmooth-barrier-a-scalable-parallel-method-for-composite-optimization) [Fabian Pedregosa](https://papers.nips.cc/author/fabian-pedregosa-9365), [Rémi Leblond](https://papers.nips.cc/author/remi-leblond-9366), [Simon Lacoste-Julien](https://papers.nips.cc/author/simon-lacoste-julien-7161)
   1. keyword
   2. Prerequisites
   3. the question studied
